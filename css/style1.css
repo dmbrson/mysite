@@ -139,7 +139,7 @@ z-index: 1;
     width: 650px;
     height: 100%;
     background: transparent;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .home-imgHover:hover {
