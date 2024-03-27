@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: revert;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -20,6 +20,7 @@ z-index: 1;
 }
 
 .logo {
+    display: flex;
     font-size: 35px;
     color: blanchedalmond;
     text-decoration: none;
