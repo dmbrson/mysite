@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+background: #081b29;
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+display: flex;
+z-index: 1;
+}
+
+.logo {
+    font-size: 35px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.home {
+    
+    color: blanchedalmond;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+    z-index: 1;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.home-content h3 {
+    color: chocolate;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.home-content p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 20px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid chocolate;
+    border-radius: 50%;
+    font-size: 20px;
+    color: chocolate;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover{
+    color: #081b29;
+    background-color: blanchedalmond;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    width: 0;
+    background-color: chocolate;
+    height: 100%;
+    z-index: -1;
+    transition: .4s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+} 
+
+.hidden {
+    display: none;
+}
+
+
+#showChorusButton {
+    width: 13px;
+    height: 10px;
+    position: relative;
+    bottom: 24px; 
+    left: 353px; 
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+.photo {
+    position: absolute;
+    display: inline;
+    top: 0;
+    right: 30px;
+    width: 650px;
+    height: 100%;
+    z-index: -1; 
+}
+
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 650px;
+    height: 100%;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.home-imgHover:hover {
+    background: #081b29;
+    opacity: .8;
+}

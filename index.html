@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ssdsd</title>
+<link rel="stylesheet" href="css/style1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<header class="header">
+<a href="#" class="logo">Kkrisko</a>
+</header>
+
+<section class="home">
+  <div class="home-content">
+    <h1>Привет,<br> я Данил Крисько</h1>
+    <h3>9 лет стажа в доте</h3>
+    <p class="ellipsis">Хоть я и ветеран этой игры, но играть не умею.<br>
+      Ещё люблю саулбол гандбол баскетбол футбол<br> анал
+       манал сыр бзал озн блезн хоз видал...<br>
+       <div id="showChorusButton"></div>
+    </p>
+    <div id="chorus" class="hidden">
+      <iframe width="500" height="250" src="https://www.youtube.com/embed/w5sOmWGYz9o" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-telegram'></i></a>
+      <a href="#"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class='bx bxl-youtube'></i></a>
+    </div>
+  </div>
+</section>
+<img class="photo" src="img/photo.png">
+<a href="https://blogs.mtdv.me/giveaways/157BMlVvOi"><span class="home-imgHover"></span></a>
+
+<script>
+    document.getElementById('showChorusButton').addEventListener('click', function() {
+      var chorus = document.getElementById('chorus');
+      chorus.classList.remove('hidden');
+    });
+</script>
+
+</body>
+
+</html>
